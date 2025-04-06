@@ -1,0 +1,304 @@
+/* <===========================flashSalesSection===========================> */
+.flashSalesSection {
+    background-color: #fff;
+}
+
+/* flashSalesContainer */
+.flashSalesContainer {
+    margin-top: 8.75rem;
+}
+
+/* todayHeading */
+.todayHeading {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: 1.5rem !important;
+}
+
+.todayHeading p {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #DB4444;
+
+}
+
+.redRectangle {
+    width: 1.25rem;
+    height: 2.5rem;
+    border-radius: .25rem;
+    background-color: #DB4444;
+}
+
+/* flashSaleTimerContainer */
+.flashSaleTimerContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative !important;
+}
+
+.flashSalesContainer h6 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: #000000;
+    margin-right: 5.4375rem !important;
+
+}
+
+/* countdownTimer */
+.countdownTimer {
+    display: flex;
+    color: #000000;
+}
+
+.label {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: .75rem;
+
+
+
+}
+
+.number {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+.separator {
+    font-size: 2rem;
+    color: #E07575;
+    margin-left: 1.0625rem;
+    margin-right: 1.0625rem;
+}
+
+
+/* flashSaleProducts==========================================> */
+.flashSaleProducts {
+    margin-top: 2.5rem;
+    padding-bottom: 3.75rem;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.viewProductBtnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.viewProductBtn {
+    border-radius: .25rem;
+    padding: 1rem 3rem;
+    background-color: #DB4444;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #FAFAFA;
+    border: none;
+    cursor: pointer;
+    margin-top: 4.75rem;
+}
+
+/* productCard */
+.productCard {
+    border-radius: .25rem;
+    text-align: center;
+    background-color: #F5F5F5;
+    position: relative;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.productImage {
+    width: 100%;
+    object-fit: contain;
+    padding: 2.1875rem 2.5rem;
+    height: 15.625rem !important;
+}
+
+.addButton {
+    transform: translateY(100%);
+    transition: transform .3s ease-in-out;
+
+}
+
+.productCard:hover .addButton {
+    transform: translateY(0);
+}
+
+/* discount */
+.discount {
+    position: absolute;
+    background: #DB4444;
+    font-family: Poppins;
+    width: 3.4375rem;
+    height: 1.625rem;
+    border-radius: .25rem;
+    top: .75rem;
+    left: .75rem;
+
+}
+
+.discount span {
+    font-size: .75rem;
+    font-weight: 400;
+    color: #FAFAFA;
+
+}
+
+/* cardIcons */
+.cardIcons {
+    position: absolute;
+    top: .75rem;
+    right: .75rem;
+
+}
+
+/* loveIconWrapper && showIconwrapper*/
+.loveIconWrapper, .showIconwrapper {
+    width: 2.125rem;
+    height: 2.125rem;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.loveIconWrapper {
+    margin-bottom: .5rem;
+}
+
+/* addbutton */
+.addButton {
+    border-bottom-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    background-color: #000000;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: .5rem 0;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1rem;
+
+
+
+}
+
+/* productInfo */
+.productInfo {
+    background-color: white !important;
+    width: 100% !important;
+}
+
+.productTitle {
+    color: #000000;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: .5rem !important;
+
+}
+
+/* priceContainer */
+
+.priceContainer {
+    margin-bottom: .5rem !important;
+}
+
+.price {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #DB4444;
+    margin-right: .75rem;
+}
+
+
+.oldPrice {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0%;
+    text-decoration: line-through;
+    color: #828282;
+}
+
+/* rating */
+.rating {
+    font-size: .875rem;
+    color: #ffa500;
+}
+
+.rating span {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: .875rem;
+    color: #808080;
+    margin-left: .5rem;
+}
+
+/* Custom Navigation Buttons */
+
+
+.swiperButtonPrev {
+    right: 3.75rem !important;
+    position: absolute !important;
+    transform: translateY(-50%);
+    width: 2.875rem;
+    height: 2.875rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    top: 50%;
+    background-color: #f5f5f5;
+    z-index: 99999999;
+}
+
+.swiperButtonNext {
+    background-color: #f5f5f5;
+    right: 0 !important;
+    position: absolute !important;
+    bottom: 100%;
+    transform: translateY(-50%);
+    width: 2.875rem;
+    height: 2.875rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    top: 50%;
+    z-index: 99999999;
+}
+
+.swiperButtonNext img , .swiperButtonPrev img {
+    width: 1rem;
+    height: .875rem;
+
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/* responsive design */
+@media (max-width:600px) {
+    .countdownTimer {
+        width: 100%;
+        margin-top: 1.875rem;
+    }
+
+
+}

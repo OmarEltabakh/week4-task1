@@ -1,0 +1,225 @@
+/* signIn */
+.signIn {
+    min-height: 100vh;
+}
+
+/* signInContainer */
+.signInContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3.75rem;
+    padding-right: 8.4375rem;
+    margin-bottom: 8.75rem;
+}
+
+/* imageSection */
+.imageSection {
+    width: 60%;
+}
+
+.image {
+    width: 100%;
+}
+
+/* formSectionContainer */
+.formSectionContainer {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+.title {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 2.25rem;
+    color: #000000;
+    margin-bottom: 1.5rem !important;
+}
+
+.subtitle {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 3rem !important;
+}
+
+/* form */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.input {
+    width: 23.125rem;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid #808080;
+    outline: none;
+
+}
+
+.input::placeholder {
+    color: #999999;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+
+/* rememberMeContainer */
+.rememberMeContainer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginBtn {
+    background-color: #DB4444;
+    width: 8.9375rem;
+    height: 3.5rem;
+    border-radius: .25rem;
+    cursor: pointer;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #FAFAFA;
+    border: none;
+
+}
+
+.formetPassword {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #DB4444;
+}
+
+
+
+/* responsive design */
+@media (max-width:1600px) {
+
+
+    /* signInContainer */
+    .signInContainer {
+
+        padding-right: 6.25rem;
+    }
+}
+
+/* responsive design */
+@media (max-width:1400px) {
+
+
+    /* signInContainer */
+    .signInContainer {
+
+        padding-right: 5rem;
+    }
+}
+
+@media (max-width:1200px) {
+
+
+    /* signInContainer */
+    .signInContainer {
+
+        padding-right: 3.125rem;
+    }
+}
+
+@media (max-width:1000px) {
+
+    /* signInContainer */
+    .signInContainer {
+
+        padding-right: 1.875rem;
+    }
+
+    .imageSection {
+        width: 55%;
+    }
+
+    .formSectionContainer {
+        width: 45%;
+    }
+
+
+}
+
+@media (max-width:800px) {
+    .signInContainer {
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+
+    }
+
+    .rememberMeContainer {
+        width: 100%;
+    }
+
+    .imageSection {
+        width: 90%;
+    }
+
+
+    .formSectionContainer {
+        width: 100%;
+        margin-top: var(--vertical-gap);
+        align-items: center;
+    }
+
+    .sectionFrom {
+        width: 90%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .input {
+        width: 100% !important;
+
+    }
+
+    .form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+@media (max-width:600px) {
+
+
+    .sectionFrom {
+        width: 95%;
+
+
+    }
+
+    .imageSection {
+        width: 95%;
+    }
+
+}
+
+/* 
+Responsive design
+1200px: text=> 90% ,img=> 70.
+1000px: img=> 80%.
+800px: text=> 100% , img=> 90%.
+600px: img=> 100%.
+
+*/

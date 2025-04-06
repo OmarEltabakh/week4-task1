@@ -1,0 +1,81 @@
+/* notFoundPage */
+.notFoundPage {
+    background-color: white;
+    overflow: auto;
+}
+
+/* notFoundContainer */
+.notFoundContainer {
+    margin-top: 5rem;
+    margin-bottom: 8.75rem;
+}
+
+
+/* notFoundHeader */
+.notFoundHeader {
+    margin-bottom: 8.75rem;
+}
+
+.notFoundHeader h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: .875rem;
+    color: #808080;
+}
+
+.notFoundHeader h3 span {
+    color: black;
+}
+
+/* notFoundContent */
+.notFoundContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notFoundContent h2 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 6.875rem;
+    color: #000000;
+    margin-bottom: 2.5rem !important;
+}
+
+.notFoundContent p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 5rem !important;
+}
+
+.notFoundContent button {
+    border-radius: .25rem;
+    padding: 1rem 3rem;
+    background-color: #DB4444;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #FAFAFA;
+    border: none;
+}
+
+.notFoundContent button a {
+    color: inherit;
+}
+
+@media (max-width:800px) {
+    .notFoundContent h2 {
+     
+        font-size: 5.875rem;
+    }
+
+}
+@media (max-width:600px) {
+    .notFoundContent h2 {
+    
+        font-size: 4rem;
+    }
+
+}

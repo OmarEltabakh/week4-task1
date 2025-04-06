@@ -1,0 +1,168 @@
+/* CountdownSection */
+.CountdownSection {
+    background-color: white;
+}
+
+/* countDownContainer */
+.countDownContainer {
+    margin-top: 8.75rem;
+    margin-bottom: 4.375rem;
+    display: flex;
+    background-color: black;
+    padding: 4.3125rem 3.5rem;
+    padding-bottom: 2.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+/* contentContainer */
+.contentContainer {
+    width: 45%;
+}
+
+.contentContainer .category {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #00FF66;
+}
+
+.contentContainer .heading {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #FAFAFA;
+    margin-bottom: 2rem !important;
+    margin-top: 2rem !important;
+    letter-spacing: .25rem;
+}
+
+.contentContainer .buyButton {
+    border-radius: .25rem;
+    padding: 1rem 3rem;
+    background-color: #00FF66;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #FAFAFA;
+    border: none;
+    cursor: pointer;
+}
+
+/* countdownWrapper */
+.countdownWrapper {
+    display: flex;
+    column-gap: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+/* timeBox */
+.countdownWrapper .timeBox {
+    width: 3.875rem;
+    height: 3.875rem;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeBox .value {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.timeBox .label {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: .6875rem;
+    color: #000000;
+}
+
+/* imageContainer */
+.imageContainer {
+    width: 55%;
+    position: relative;
+    z-index: 2;
+}
+
+.imageContainer img {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.imageContainer::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 53.125rem;
+    height: 53.125rem;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, transparent 70%);
+    transform: translate(15%, -55%);
+    z-index: 1;
+}
+
+/* responsive design */
+@media (max-width:1000px) {
+    .countDownContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contentContainer {
+        width: 90%;
+    }
+
+    .imageContainer {
+        width: 70%;
+        margin-top: var(--vertical-gap) !important;
+    }
+
+
+    .imageContainer::before {
+
+        transform: translate(10%, -50%);
+
+    }
+
+}
+
+@media (max-width:800px) {
+    .contentContainer {
+        width: 100%;
+    }
+
+    .imageContainer {
+        width: 90%;
+    }
+
+ 
+}
+
+@media (max-width:600px) {
+    .imageContainer {
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    .imageContainer::before {
+    
+        transform: translate(20%, -50%);
+      
+    }
+    
+}
+@media (max-width:400px) {
+    .countDownContainer {
+        padding: 1.875rem;
+    }
+}
+
+
+

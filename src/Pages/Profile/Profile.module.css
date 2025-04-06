@@ -1,0 +1,221 @@
+/* profilePage */
+.profilePage {
+    background-color: white;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+/* profileContainer */
+.profileContainer {
+    margin-top: 5rem;
+    margin-bottom: 8.75rem;
+}
+
+/* profileHeader */
+.profileHeader {
+    margin-bottom: 5rem;
+}
+
+.profileHeader h3 {
+    color: #000000;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: .875rem;
+}
+
+.profileHeader h3 span {
+    color: #808080;
+}
+
+/* profileEditContainer */
+.profileEditContainer {
+    display: flex;
+}
+
+
+/* sidebar */
+.sidebar {
+    width: 35%;
+}
+
+
+.sidebar h3 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 1rem !important;
+}
+
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 2.1875rem !important;
+    color: #808080;
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 1.5rem !important;
+}
+
+.sidebar li {
+    cursor: pointer;
+}
+
+/* mainContent */
+.mainContent {
+    width: 65%;
+    box-shadow: 0px 1px .8125rem 0px #0000000D;
+    border-radius: .25rem;
+    background-color: white;
+    padding: 2.5rem 5rem;
+}
+
+.profileTitle {
+    color: #DB4444;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-bottom: 1rem !important;
+}
+
+/* profileForm */
+
+/* inputWrapper */
+.inputWrapper {
+    display: flex;
+    column-gap: 3.125rem;
+    margin-bottom: 1.5rem;
+}
+
+.inputGroup {
+    width: 100%;
+}
+
+.inputGroup label {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.inputGroup input {
+    width: 100%;
+    height: 3.125rem;
+    border-radius: .25rem;
+    background-color: #f5f5f5;
+    outline: none;
+    border: none;
+}
+
+.inputGroup input::placeholder {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-left: 1rem;
+    color: #7b7b7b !important;
+}
+
+/* passwordChanges */
+.passwordChanges {
+    margin: 1.5rem 0;
+}
+
+.passwordChanges .sectionTitle {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: .5rem;
+    display: block;
+    margin-bottom: .5rem !important;
+}
+
+
+.passwordChanges input {
+    width: 100%;
+    height: 3.125rem;
+    border-radius: .25rem;
+    background-color: #f5f5f5;
+    outline: none;
+    border: none;
+    margin-bottom: 1rem;
+
+}
+
+.passwordChanges input::placeholder {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-left: 1rem;
+    color: #7b7b7b !important;
+}
+
+/* buttonGroup */
+.buttonGroup {
+    display: flex;
+    justify-content: end;
+    column-gap: 2rem;
+}
+
+.buttonGroup {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.buttonGroup .cancelButton {
+    all: unset;
+    cursor: pointer;
+    color: #000000;
+
+}
+
+.buttonGroup .saveButton {
+    background-color: #DB4444;
+    border-radius: .25rem;
+    color: #FAFAFA;
+    padding: 1rem 3rem;
+    border: none;
+
+}
+
+/* responsive design */
+@media (max-width:1000px) {
+    .mainContent {
+
+        padding: 1.875rem;
+    }
+
+    .inputWrapper {
+        column-gap: 1.25rem;
+    }
+
+}
+
+@media (max-width:500px) {
+    .profileEditContainer {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mainContent {
+        width: 100%;
+
+        margin-top: var(--vertical-gap);
+    }
+  
+    
+
+}

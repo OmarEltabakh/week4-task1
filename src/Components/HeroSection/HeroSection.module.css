@@ -1,0 +1,90 @@
+/*HeroSection======================================>*/
+.HeroSetion {
+    background-color: white;
+}
+
+/* heroSectionContainer============================> */
+.heroSectionContainer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* sideBarMenu=====================================> */
+.sideBarMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid #b3b3b3;
+}
+
+/* categorySidebar */
+.categorySidebar {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding-right: 1rem !important;
+    padding-top: 2.5rem !important;
+}
+
+.categorySidebar li a {
+    color: #000000;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.categorySidebar li a .womenFashionArrow {
+    margin-left: 3.1875rem;
+
+}
+
+.categorySidebar li a .menFashionArrow {
+    margin-left: 5.0625rem;
+
+}
+
+/* mainBanner */
+.mainBanner {
+    padding-top: 2.5rem;
+    width: 80%;
+}
+
+.mainBanner img {
+    width: 100%;
+}
+
+
+/* responsive design */
+@media (max-width: 1500px) {
+    .categorySidebar li a .womenFashionArrow {
+        display: none;
+    }
+
+    .categorySidebar li a .menFashionArrow {
+        display: none;
+    }
+}
+
+@media (max-width:700px) {
+    .sideBarMenu {
+        display: none;
+    }
+
+    .mainBanner {
+        width: 100%;
+    }
+}
+
+
+
+/* 
+Responsive design
+1200px: text=> 90% ,img=> 70.
+1000px: img=> 80%.
+800px: text=> 100% , img=> 90%.
+600px: img=> 100%.
+
+*/

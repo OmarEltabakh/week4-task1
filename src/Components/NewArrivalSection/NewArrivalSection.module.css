@@ -1,0 +1,304 @@
+/* NewArrivalSection */
+.NewArrivalSection {
+    background-color: white;
+    overflow: auto;
+}
+
+/* NewArrivalContainer */
+.NewArrivalContainer {
+    margin-top: 8.75rem;
+}
+
+/* newArrivalHeader */
+.newArrivalHeader {
+    margin-bottom: 3.75rem;
+}
+
+/* badgeContainer */
+.badgeContainer {
+    display: flex;
+    align-items: center;
+    column-gap: .625rem;
+    margin-bottom: 1.25rem;
+}
+
+.redRectangle {
+    width: 1.25rem;
+    height: 2.5rem;
+    border-radius: .25rem;
+    background-color: #DB4444;
+}
+
+.badgeContainer p {
+    color: #DB4444;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/* headerTitle */
+.headerTitle {
+    color: #000000;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 2.25rem;
+}
+
+/* newArrivalContentContainer */
+
+/* playStationCardContainer */
+.playStationCardContainer {
+    padding-left: 0;
+    padding-right: 1.5625rem !important;
+}
+
+/* playStationCard */
+.playStationCard {
+    position: relative;
+    background-color: black;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    border-radius: .25rem;
+}
+
+.playStationCard img {
+    width: 100%;
+    padding: 0 1.875rem;
+}
+
+/* playStationLayer */
+.playStationLayer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2rem;
+}
+
+.playStationLayer h6 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #FAFAFA;
+    margin-bottom: 1rem !important;
+}
+
+.playStationLayer p {
+    color: #FAFAFA;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: .875rem;
+    margin-bottom: 1rem !important;
+}
+
+.playStationLayer a {
+    color: #FAFAFA !important;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+
+/* cardContainer */
+.cardContainer {
+    position: relative !important;
+}
+
+/* card */
+.card {
+    background-color: black;
+    height: 100%;
+    border-radius: .25rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 31.25rem;
+    height: 31.25rem;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, transparent 80%);
+    transform: translate(20%, -50%);
+    z-index: 1;
+}
+
+
+
+.card img {
+    width: 100%;
+    padding: 1.875rem 2.5rem;
+    position: relative;
+    z-index: 2;
+}
+
+/* layer */
+.layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2rem;
+    z-index: 999;
+}
+
+.layer h6 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #FAFAFA;
+    margin-bottom: .5rem !important;
+}
+
+.layer p {
+    color: #FAFAFA;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: .875rem;
+    margin-bottom: .5rem !important;
+}
+
+.layer a {
+    color: #FAFAFA !important;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+
+/* womenCollectionCotainer */
+.womenCollectionCotainer {
+    height: 15.625rem;
+}
+
+.womenCollectionCotainer .card::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 37.5rem;
+    height: 37.5rem;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, transparent 80%);
+    transform: translate(5%, -50%);
+    z-index: 1;
+}
+
+
+.womenCollectionCotainer img {
+    height: 100%;
+}
+
+/* featuresContainer */
+.featuresContainer {
+    display: flex;
+    margin-top: 8.75rem;
+    flex-wrap: wrap;
+}
+
+.featureCard {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconContainer {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: .625rem #c1c0c1 solid;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.iconContainer img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
+.featureTitle {
+    color: #000000;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: .5rem !important;
+}
+
+.featureDescription {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: .875rem;
+    text-align: center;
+    color: #000000;
+}
+
+/* goUpContainer */
+.goUpContainer {
+    margin-top: 3.875rem;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 2rem;
+}
+
+/* goUp */
+.goUp {
+    width: 2.875rem;
+    height: 2.875rem;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.goUp img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* responsive design */
+@media (max-width:1276px) {
+    .featuresContainer {
+        row-gap: 3.125rem !important;
+    }
+}
+
+/* responsive design */
+@media (max-width:992px) {
+
+    .playStationCardContainer {
+        margin: auto !important;
+        padding: 0 !important;
+        margin-bottom: var(--vertical-gap) !important;
+    }
+
+    .card::before {
+
+        transform: translate(5%, -50%);
+
+    }
+
+    .womenCollectionCotainer .card::before {
+        transform: translate(-20%, -50%);
+    }
+
+
+}
+@media (max-width:600px) {
+
+
+    .womenCollectionCotainer .card::before {
+        transform: translate(10%, -50%);
+    }
+
+}

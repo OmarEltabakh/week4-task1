@@ -1,0 +1,152 @@
+/* <===========================categorySection===========================> */
+.categorySection {
+    background-color: #fff;
+}
+
+/* categoryContainer */
+.categoryContainer {
+    margin-top: 5rem;
+}
+
+/* categoryHeading */
+.categoryHeading {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: 1.5rem !important;
+}
+
+.categoryHeading p {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #DB4444;
+
+}
+
+.redRectangle {
+    width: 1.25rem;
+    height: 2.5rem;
+    border-radius: .25rem;
+    background-color: #DB4444;
+}
+
+/* categoryNavigationContainer */
+.categoryNavigationContainer {
+    display: flex;
+    align-items: center;
+    position: relative !important;
+}
+
+.categoryNavigationContainer .headerTitle {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: #000000;
+    margin-right: 5.4375rem !important;
+
+}
+
+
+
+/* categoryProducts==========================================> */
+.categoryProducts {
+    margin-top: 3.75rem;
+    padding-bottom: 4.375rem !important;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+/* productCard */
+.productCard {
+
+    width: 170px !important;
+    height: 145px !important;
+    border-radius: .25rem;
+    border: 1px solid #0000004D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5625rem;
+    padding-bottom: 1.5rem;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+
+    cursor: grab;
+}
+
+.productCard:active {
+    cursor: grabbing;
+}
+
+
+.activeProductCard {
+    background-color: #DB4444 !important;
+    color: white !important;
+    border: none !important;
+}
+
+
+.productImage {
+    width: 56px !important;
+    height: 56px !important;
+    
+
+}
+
+.productTitle {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 1rem !important;
+}
+
+
+
+
+/* Custom Navigation Buttons */
+
+.swiperButtonPrev {
+    right: 3.75rem !important;
+    position: absolute !important;
+    transform: translateY(-50%);
+    width: 2.875rem;
+    height: 2.875rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    top: 50%;
+    background-color: #f5f5f5;
+    z-index: 99999999;
+}
+
+.swiperButtonNext {
+    background-color: #f5f5f5;
+    right: 0 !important;
+    position: absolute !important;
+    bottom: 100%;
+    transform: translateY(-50%);
+    width: 2.875rem;
+    height: 2.875rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    top: 50%;
+    z-index: 99999999;
+}
+
+.swiperButtonNext img, .swiperButtonPrev img {
+    width: 1rem;
+    height: .875rem;
+
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
