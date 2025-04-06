@@ -1,5 +1,5 @@
 import dogFoodImage from "../../assets/ourProductSectionImages/dogFood.png";
-import cameraImage from "../../assets/ourProductSectionImages/camera.png";
+// import cameraImage from "../../assets/ourProductSectionImages/Camera.png";
 import laptopImage from "../../assets/ourProductSectionImages/laptop.png";
 import curologySetImage from "../../assets/ourProductSectionImages/curologySet.png";
 import electricCarImage from "../../assets/ourProductSectionImages/electricCar.png";
@@ -19,7 +19,7 @@ export const products = [
     {
         id: 2,
         title: "CANON EOS DSLR Camera",
-        image: cameraImage,
+        image: laptopImage,
         price: "$360",
         rating: 4.0,
         reviews: 95,
