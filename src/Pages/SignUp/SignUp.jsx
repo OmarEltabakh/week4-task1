@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import styles from "./SignUp.module.css";
-import registerImage from "../../assets/registerImage.png";
+import registerImage from "../../assets/registerImage/registerImage.png";
 import google from "../../assets/Icons/google.svg";
 import { Link } from "react-router-dom";
 

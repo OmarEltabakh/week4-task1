@@ -4,7 +4,7 @@ import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import sliderImage from "../../assets/heroImage.png";
+import sliderImage from "../../assets/heroImages/heroImage.png";
 import apple from "../../assets/Icons/apple.svg";
 import arrowRight from "../../assets/Icons/arrowRight.svg";
 

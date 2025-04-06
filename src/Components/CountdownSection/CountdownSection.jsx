@@ -1,5 +1,5 @@
 import styles from "./CountdownSection.module.css";
-import countDownSectionImage from "../../assets/countdownSectionImage.png"
+import countDownSectionImage from "../../assets/countDownSectoinImages/CountdownSectionImage.png";
 
 export default function CountdownSection() {
 
